@@ -1,0 +1,390 @@
+html, body,
+.body{
+    background: #e4e5ea;
+    background-color: #e4e5ea;
+}
+.header {
+    background: $primary-color;
+    background-color: $primary-color;
+
+    .columns {
+        padding-bottom: 20px;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        padding-top: 20px;
+        .logo_white {
+            width: 128px;
+        }
+        .user_icon {
+            width: 32px;
+        }
+    }
+}
+
+.sub-header {
+    background: #D65600;
+    background-color: #D65600;
+
+    .columns {
+        padding-bottom: 5px;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        padding-top: 5px;
+        a {
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+            .icons {
+                width: 20px;
+                margin-right: 10px;
+                display: inline-block;
+                vertical-align: bottom;
+            }
+        }
+            th {
+                text-align:center;
+        }
+        .menu-divider {
+            display: block;
+            height: 20px;
+            width: 1px; 
+            background: #ff690f;
+            background-color: #ff690f; 
+        }
+    }
+
+}
+
+.deal-of-day {
+   background: #13191f;
+   background-color: #13191f;
+   .columns{
+    th {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+       }
+   }
+   img {
+       padding-bottom: 20px;
+   }
+   
+   h2 {
+       color: white;
+       font-weight: 700;
+       font-size: 30px;
+       text-align: center;
+       padding-bottom: 10px; 
+   }
+   p { 
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 20px;
+   }
+   span {
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        display: block;
+        &.save-amount{
+            font-size: 14px;
+        }
+        &.tiny-info{
+            font-size: 10px;
+            font-weight: 300;
+            padding-bottom: 10px;
+        }
+        &.price{
+            font-size: 20px;
+            font-weight: 600;
+            padding-bottom: 15px;
+        }    
+        
+    }
+    .button {
+        display: block;
+        width: 150px;
+        text-align: center;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        margin: 0 auto;
+        &:hover{
+            color: $primary-color;
+        }
+    }
+}
+
+.content-area {
+    background: #F1F4F7;
+    background-color: #F1F4F7;
+    & > tbody > tr > th {
+        padding-top: 0px;
+    }
+    .first-offer{
+      padding-top: 16px !important;
+    }
+    .offer{
+        background: #ffffff;
+        background-color: #ffffff;
+      
+    .columns{
+     th {
+         padding-top: 20px;
+         padding-bottom: 20px;
+         padding-right: 20px;
+         padding-left: 20px;
+     
+        }
+        & > table {
+            table-layout: fixed;
+        }
+    }
+    img {
+        padding-bottom: 20px;
+    }
+    
+    h2 {
+        color: #334755;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 10px; 
+    }
+    p { 
+         color: #334755;
+         font-weight: 600;
+         font-size: 16px;
+         text-align: center;
+         padding-bottom: 20px;
+    }
+    span {
+         color: #334755;
+         font-weight: 600;
+         font-size: 16px;
+         text-align: center;
+         display: block;
+         &.save-amount{
+             font-size: 14px;
+             color: #1a88f3;
+         }
+         &.tiny-info{
+             font-size: 10px;
+             font-weight: 500;
+             padding-bottom: 10px;
+             color: #334755;
+         }
+         &.price{
+             font-size: 20px;
+             font-weight: 600;
+             padding-bottom: 15px;
+             color: #334755;
+         }    
+         
+     }
+     .button {
+         display: block;
+         width: 180px;
+         text-align: center;
+         padding-top: 7px;
+         padding-bottom: 7px;
+         border: 1px solid white;
+         border-radius: 5px;
+         background: #14181c;
+         background-color: #14181c;
+         color: #ffffff;
+         margin: 0 auto;
+         &:hover{
+             color: $primary-color;
+            }
+        }
+        &.last-offer{
+            .group-icons{
+                width: 190px;
+                margin: 0 auto;
+                padding-bottom: 0;
+            }
+            h4 { 
+                color: #334755;
+                font-weight: 600;
+                font-size: 16px;
+                text-align: center;
+                padding-bottom: 20px;
+           }
+           p{
+               font-weight: 400;
+               color: #334755;
+               font-size: 14px;
+               text-align: center;
+               padding-bottom: 20px;
+           }
+        }
+     }
+ }
+
+
+
+.footer-top {
+    background: #222d37;
+    background-color: #222d37;
+    color: white;
+    & > tbody > tr {
+        vertical-align: middle;
+    }
+    & > tbody > tr > th {
+        padding-bottom: 25px !important;
+        padding-top: 30px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+
+    }
+    th {
+        color: white;
+        padding-bottom: 5px;
+        padding-top: 0px;
+        padding-right: 0;
+        padding-left: 0;
+        vertical-align: middle;
+    }
+    .circle-logo{
+        display: block;
+        margin: 0 auto;
+    }
+    .call-to-action{
+        display: block;
+        padding-bottom: 2px;
+        font-size: 14px;
+        font-weight: 600;
+        hyphens: none;
+        padding-right: 10px;
+        padding-left: 0;
+    }
+    .info{
+        display: block;
+        font-size: 12px;
+        font-weight: 600;
+        hyphens: none;
+        padding-right: 10px;
+        width: 95px;
+    }
+    .info-section > table > tbody > tr > th {
+        padding-left: 10px !important;
+    }
+
+    .store-logos {
+        img {
+            height: 40px;
+            width: 120px;
+        }
+
+        .appstore {
+            max-width: 100%;
+        }
+}
+}
+
+.footer-social {
+    background: #14181c;
+    background-color: #14181c;
+    & > tbody > tr > th {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    th {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .logo-section{
+        img {
+            width: 128px;
+        }
+    }
+    .social-icons {
+        img {
+            width: 32px;
+            max-width: none !important;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+
+.footer-menu {
+    background: #14181c;
+    background-color: #14181c;
+    border-top: 2px solid #2d3e4b;
+    border-bottom: 2px solid #2d3e4b;
+
+    .columns {
+        padding-bottom: 5px;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        padding-top: 5px;
+        a {
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+            .icons {
+                width: 20px;
+                margin-right: 10px;
+                display: inline-block;
+                vertical-align: bottom;
+            }
+        }
+            th {
+                text-align:center;
+
+        }
+        .menu-divider {
+            display: block;
+            height: 20px;
+            width: 1px; 
+            background: #2d3e4b;
+            background-color: #2d3e4b; 
+        }
+    }
+
+}
+.footer-bottom{
+    background: #14181c;
+    background-color: #14181c;
+    & > tbody > tr > th {
+        padding-left: 30px !important;
+        padding-bottom: 30px !important;
+        padding-right: 30px !important;
+        padding-top: 30px !important;
+    }
+    .lower-links {
+        & > tbody > tr > th > table > tbody > tr > th {
+            text-align: center;
+           a { 
+               padding-right: 5px;
+               font-size: 12px;
+               color: white;
+               &:hover {
+                   color: $primary-color;
+               }
+           }
+        }
+    }
+    .privacy {
+        p {
+            color: #a0a1a3;
+            font-size : 10px;
+       
+        }
+    }
+    .copyright {
+        p {
+            color: #a0a1a3;
+            font-size: 14px;
+
+        }
+    }
+    
+}

@@ -1,0 +1,57 @@
+---
+layout: kayak
+subject: Great Deals Today
+---
+
+
+<container>
+    <row class="deal-of-day">
+        <columns>
+        <h2>Deal of the Day</h2>
+        <img src="{{ kayakEmail.dealOfTheDay.image }}">
+        <p>{{ kayakEmail.dealOfTheDay.location }}: {{ kayakEmail.dealOfTheDay.description }}
+        </p>
+        <span class="save-amount">{{ kayakEmail.dealOfTheDay.saveAmount }}</span>
+        <span class="tiny-info">{{ kayakEmail.dealOfTheDay.tinyInfo }}</span>
+        <span class="price">{{ kayakEmail.dealOfTheDay.price }}</span>
+        <a href='{{ kayakEmail.dealOfTheDay.link }}'><span class="button">See Deal</span></a>
+    </row>
+        </columns>
+</container>
+<container>
+    <row class="content-area">
+        <columns style="padding-top: 16px;">
+            {{#each kayakEmail.offers}}
+            <row class='offer first-offer'>
+                <columns>
+                    <img src="{{this.image}}" alt="ireland">
+                    <p>{{this.location}}: {{this.location}}</p>
+                    <span class="save-amount">{{this.saveAmount}}</span>
+                    <span class="tiny-info">{{this.tonyInfo}}</span>
+                    <span class="price">{{this.price}}</span>
+                    <a href='{{this.link}}'><span class="button">See Deal</span></a>
+                </columns>
+            </row>
+            {{/each}}
+        </row>
+    </columns>
+</container>
+
+<container>
+    <row class="content-area">
+    <columns>
+        <row class='offer last-offer'>
+            <columns>
+                <row>
+                    <columns>
+                        <img src="https://i.imgur.com/UvFMTs8.png" class='group-icons'>
+                    </columns>
+                </row>
+                    <h4>Still looking? There's more</h4>
+                    <p>Search hundreds of deals to suit your budget on flights, packages, cruises, and more.</p>
+                    <a href='#'><span class="button">See All Deals</span></a>
+                </row>
+            </columns>
+        </row>
+    </columns>
+</container>
