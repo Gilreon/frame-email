@@ -12,13 +12,12 @@ html,
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+
 }
 
 .perks {
     background: #e7f6e7;
     background-color: #e7f6e7;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
     margin-bottom: 100px;
     
     
@@ -29,12 +28,17 @@ html,
         margin-bottom: 20px;
     }
 
-    img {
+    .mail {
         margin-bottom: 40px;
 
     }
+    
+    .swirl {
+        position: absolute;
+    }
 
     p {
+        line-height: 22px;
         display: block;
         margin: 0 auto;
         text-align: center;
@@ -53,6 +57,7 @@ html,
         background-color: #018401;
         padding: 15px 40px;
         color: #fff;
+        font-weight: 600;
 
     }
 
@@ -60,22 +65,49 @@ html,
 
 .health {
     margin-bottom: 15px;
+    width: 80% !important;
+    display: block;
+    margin: 0 auto;
   
     h4 {
         font-weight: 600;
         font-size: 20px;
         margin-left: 0;
         margin-top: 25px;
+        width: 90% !important;
+        display: block;
+        margin: 0 auto;
+       
+        margin-bottom: 15px;
+        margin-top: 20px;
     }
 
 
     img {
         width: 180px;
         margin: 0;
+    
     }
 
     p {
+        line-height: 22px;
+        margin-bottom: 20px;
+        display: block;
+        margin: 0 auto;
         font-size: 14px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+
+    }
+
+    .heading-text {
+        width: 90% !important;
+
+    }
+
+    span {
+        color: #018401;
+        font-weight: 600;
 
     }
 
@@ -87,21 +119,38 @@ html,
     
 
     img {
-        width: 180px;
+        width: 80%;
         margin: 0;
+        margin-left: 50px;
+        margin-top: 40px;
 
     }
     
     h4 {
+        
+        margin-top: 65px !important;
         font-weight: 600;
         font-size: 20px;
-        margin-left: 0;
+        margin-left: 38px;
         margin-top: 25px;
+        
 
     }
 
     p {
+        line-height: 22px;
+        width: 80% !important;
+        display: block;
+        margin: 0 auto;
         font-size: 14px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    span {
+        color: #018401;
+        font-weight: 600;
+
     }
 
 }
@@ -110,22 +159,41 @@ html,
     margin-top: 40px;
 
     img {
-        width: 180px;
+        width: 80%;
         margin: 0;
+        margin-left: 50px;
+        margin-top: 40px;
 
     }
     
     h4 {
+        margin-top: 65px !important;
         font-weight: 600;
         font-size: 20px;
-        margin-left: 0;
+        margin-left: 38px;
         margin-top: 25px;
 
     }
 
     p {
+        line-height: 22px;
         font-size: 14px;
+        width: 80% !important;
+        display: block;
+        margin: 0 auto;
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+
+        span {
+            color: #018401;
+            font-weight: 600;
+
+        }
+
+      
     }
+    
 
     .discount-text {
         margin-top: 15px;
@@ -134,6 +202,12 @@ html,
             margin-left: 20px;
             padding-bottom: 10px;
             text-align: left;
+            width: 80% !important;
+            display: block;
+            margin: 0 auto;
+            font-size: 14px;
+            margin-bottom: 15px;
+            margin-top: 10px;
 
           
         }
@@ -157,8 +231,59 @@ html,
             background-color: #018401;
             padding: 15px 40px;
             color: #fff;
+            font-weight: 600;
     
         }
 
     }
 }
+
+.footer {
+
+    .footer-logo {
+        width: 50px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 55px;
+      
+    }
+
+    .footer-stores {
+       margin-top: 30px;
+        
+       img {
+           width: 80%;
+           display: block;
+           margin: 0 auto;
+       }
+
+       }
+
+    a {
+        padding-right: 20px !important;
+        font-size: 14px;
+        color: #018401;
+        font-weight: 600;
+
+    }
+
+    .footer-text {
+        display: block;
+        margin: 0 auto;
+        width: 95%;
+        
+        p {
+            text-align: center;
+            font-size: 14px;
+
+            span {
+                color: #018401;
+                font-weight: 600;
+            }
+        }
+
+    }
+
+    }
+
+
