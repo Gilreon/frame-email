@@ -5,6 +5,15 @@ html,
   background-color: #f3f3f3 !important;
 }
 
+
+.container {
+    
+    .columns {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
 .perks {
     background: #e7f6e7;
     background-color: #e7f6e7;
@@ -75,6 +84,7 @@ html,
 .financial {
     background: #fff6df;
     background-color: #fff6df;
+    
 
     img {
         width: 180px;
@@ -97,10 +107,8 @@ html,
 }
 
 .discount {
-    background: #f3f3f3 !important;
-    background-color: #f3f3f3 !important;
+    margin-top: 40px;
 
-    
     img {
         width: 180px;
         margin: 0;
@@ -119,4 +127,38 @@ html,
         font-size: 14px;
     }
 
+    .discount-text {
+        margin-top: 15px;
+
+        p {
+            margin-left: 20px;
+            padding-bottom: 10px;
+            text-align: left;
+
+          
+        }
+
+        .dates {
+            padding-bottom: 0 !important; 
+            margin-bottom: 5px !important;
+        }
+
+        .upside {
+            margin-top: 20px;
+
+        }
+
+        a {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            text-align: center;
+            background: #018401;
+            background-color: #018401;
+            padding: 15px 40px;
+            color: #fff;
+    
+        }
+
+    }
 }
