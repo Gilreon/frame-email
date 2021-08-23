@@ -72,7 +72,6 @@ html,
     h4 {
         font-weight: 600;
         font-size: 20px;
-        margin-left: 0;
         margin-top: 25px;
         width: 90% !important;
         display: block;
@@ -125,6 +124,7 @@ html,
         margin-top: 40px;
 
     }
+
     
     h4 {
         
@@ -133,6 +133,7 @@ html,
         font-size: 20px;
         margin-left: 38px;
         margin-top: 25px;
+        
         
 
     }
@@ -178,7 +179,7 @@ html,
     p {
         line-height: 22px;
         font-size: 14px;
-        width: 80% !important;
+        width: 83% !important;
         display: block;
         margin: 0 auto;
         font-size: 14px;
@@ -193,6 +194,19 @@ html,
 
       
     }
+
+    a {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        text-align: center;
+        background: #018401;
+        background-color: #018401;
+        padding: 15px 40px;
+        color: #fff;
+        font-weight: 600;
+
+    }
     
 
     .discount-text {
@@ -202,7 +216,7 @@ html,
             margin-left: 20px;
             padding-bottom: 10px;
             text-align: left;
-            width: 80% !important;
+            width: 83% !important;
             display: block;
             margin: 0 auto;
             font-size: 14px;
@@ -222,18 +236,7 @@ html,
 
         }
 
-        a {
-            display: block;
-            margin: 0 auto;
-            width: 150px;
-            text-align: center;
-            background: #018401;
-            background-color: #018401;
-            padding: 15px 40px;
-            color: #fff;
-            font-weight: 600;
-    
-        }
+       
 
     }
 }
@@ -249,7 +252,7 @@ html,
     }
 
     .footer-stores {
-       margin-top: 30px;
+       margin-top: 30px !important;
         
        img {
            width: 80%;
@@ -287,3 +290,76 @@ html,
     }
 
 
+
+    @media only screen and (max-width: 596px) {
+
+        .healthpic {
+            margin-left: 49px !important;
+
+        }
+
+        .money {
+            margin-left: 73px !important;
+
+        }
+
+        .discount-tag {
+            margin-left: 38px !important;
+        }
+
+        .health {
+
+            h4 {
+                text-align: center !important;
+
+            }
+
+            .heading-text {
+                text-align: center !important;
+            }
+        }
+
+        .financial {
+            h4 {
+                margin-left: 0 !important;
+                text-align: center !important;
+            }
+
+            .financial-text {
+                text-align: center !important;
+
+            }
+
+            .financial-header {
+                padding-bottom: 0 !important;
+            }
+
+        }
+
+        .discount {
+           
+            .discount-header-text {
+                text-align: center !important;
+
+            }
+
+            .discount-header {
+                padding-bottom: 0 !important;
+            }
+
+        }
+
+        .footer-anchors {
+
+
+            .links {
+                display: block !important;
+                margin: 0 auto !important; 
+               text-align: center !important;
+           }
+            
+        }
+
+       
+    
+    }
